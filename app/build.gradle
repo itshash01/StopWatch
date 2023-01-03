@@ -7,6 +7,11 @@ android {
     namespace 'com.hfad.stopwatch'
     compileSdk 32
 
+    // This is to enable features for binding views
+    buildFeatures{
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.hfad.stopwatch"
         minSdk 21
